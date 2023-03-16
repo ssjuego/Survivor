@@ -6,14 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: f875c987afdd446eda2b199ab88b894d
+  - enabled: 1
     path: Assets/Scenes/Levels/Level_1_0.01.unity
     guid: d6c75e958c18d49ba856da2b94cd4d13
   - enabled: 1
-    path: Assets/Scenes/EndGame.unity
-    guid: af67957ef80ae41459cf3bb3991e5e47
-  - enabled: 1
     path: Assets/Scenes/PlayerDead.unity
-    guid: 43bbee883011c45db98a1e94a3c39419
+    guid: 3a118ac7a2391408ab171b9f57fe1668
+  - enabled: 1
+    path: Assets/Scenes/EndGame.unity
+    guid: 9289b3010a8194819957c9152a64f95d
   m_configObjects:
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
       guid: 58512d4fd223748eb80668af111103ed, type: 2}

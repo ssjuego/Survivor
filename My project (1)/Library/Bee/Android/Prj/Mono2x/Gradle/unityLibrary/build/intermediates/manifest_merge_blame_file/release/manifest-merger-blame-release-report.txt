@@ -7,145 +7,150 @@
 7
 8    <uses-sdk
 9        android:minSdkVersion="22"
-9-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml
+9-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml
 10        android:targetSdkVersion="30" />
-10-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml
+10-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml
 11
 12    <uses-feature android:glEsVersion="0x00030000" />
-12-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:25:3-52
-12-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:25:17-49
+12-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:25:3-52
+12-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:25:17-49
 13    <uses-feature
-13-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:3-91
+13-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:3-91
 14        android:name="android.hardware.vulkan.version"
-14-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:17-63
+14-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:17-63
 15        android:required="false" />
-15-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:64-88
-16    <uses-feature
-16-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:3-88
-17        android:name="android.hardware.touchscreen"
-17-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:17-60
-18        android:required="false" />
-18-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:61-85
+15-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:64-88
+16
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:3-65
+17-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:20-62
+18
 19    <uses-feature
-19-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:28:3-99
-20        android:name="android.hardware.touchscreen.multitouch"
-20-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:28:17-71
+19-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:28:3-88
+20        android:name="android.hardware.touchscreen"
+20-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:28:17-60
 21        android:required="false" />
-21-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:28:72-96
+21-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:28:61-85
 22    <uses-feature
-22-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:3-108
-23        android:name="android.hardware.touchscreen.multitouch.distinct"
-23-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:17-80
+22-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:3-99
+23        android:name="android.hardware.touchscreen.multitouch"
+23-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:17-71
 24        android:required="false" />
-24-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:81-105
-25
-26    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-26-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:30:3-75
-26-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:30:20-72
-27
-28    <application android:extractNativeLibs="true" >
-28-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:3-24:17
-28-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:16-48
-29        <activity
-29-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:5-11:16
-30            android:name="com.unity3d.player.UnityPlayerActivity"
-30-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:15-68
-31            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-31-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:180-361
-32            android:hardwareAccelerated="false"
-32-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:397-432
-33            android:launchMode="singleTask"
-33-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:148-179
-34            android:resizeableActivity="false"
-34-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:362-396
-35            android:screenOrientation="fullUser"
-35-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:111-147
-36            android:theme="@style/UnityThemeSelector" >
-36-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:69-110
-37            <intent-filter>
-37-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:5:7-8:23
-38                <action android:name="android.intent.action.MAIN" />
-38-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:9-61
-38-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:17-58
-39
-40                <category android:name="android.intent.category.LAUNCHER" />
-40-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:9-69
-40-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:19-66
-41            </intent-filter>
+24-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:72-96
+25    <uses-feature
+25-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:30:3-108
+26        android:name="android.hardware.touchscreen.multitouch.distinct"
+26-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:30:17-80
+27        android:required="false" />
+27-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:30:81-105
+28
+29    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+29-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:31:3-75
+29-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:31:20-72
+30
+31    <application android:extractNativeLibs="true" >
+31-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:3-24:17
+31-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:16-48
+32        <activity
+32-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:5-11:16
+33            android:name="com.unity3d.player.UnityPlayerActivity"
+33-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:15-68
+34            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+34-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:180-361
+35            android:hardwareAccelerated="false"
+35-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:397-432
+36            android:launchMode="singleTask"
+36-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:148-179
+37            android:resizeableActivity="false"
+37-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:362-396
+38            android:screenOrientation="fullUser"
+38-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:111-147
+39            android:theme="@style/UnityThemeSelector" >
+39-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:69-110
+40            <intent-filter>
+40-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:5:7-8:23
+41                <action android:name="android.intent.action.MAIN" />
+41-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:9-61
+41-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:17-58
 42
-43            <meta-data
-43-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:7-82
-44                android:name="unityplayer.UnityActivity"
-44-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:18-58
-45                android:value="true" />
-45-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:59-79
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:9-69
+43-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:19-66
+44            </intent-filter>
+45
 46            <meta-data
-46-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:7-78
-47                android:name="android.notch_support"
-47-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:18-54
+46-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:7-82
+47                android:name="unityplayer.UnityActivity"
+47-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:18-58
 48                android:value="true" />
-48-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:55-75
-49        </activity>
-50
-51        <meta-data
-51-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:5-69
-52            android:name="unity.splash-mode"
-52-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:16-48
-53            android:value="0" />
-53-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:49-66
+48-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:59-79
+49            <meta-data
+49-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:7-78
+50                android:name="android.notch_support"
+50-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:18-54
+51                android:value="true" />
+51-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:55-75
+52        </activity>
+53
 54        <meta-data
-54-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:5-74
-55            android:name="unity.splash-enable"
-55-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:16-50
-56            android:value="True" />
-56-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:51-71
+54-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:5-69
+55            android:name="unity.splash-mode"
+55-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:16-48
+56            android:value="0" />
+56-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:49-66
 57        <meta-data
-57-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:5-78
-58            android:name="unity.launch-fullscreen"
-58-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:16-54
+57-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:5-74
+58            android:name="unity.splash-enable"
+58-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:16-50
 59            android:value="True" />
-59-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:55-75
+59-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:51-71
 60        <meta-data
-60-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:5-84
-61            android:name="unity.allow-resizable-window"
-61-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:16-59
-62            android:value="False" />
-62-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:60-81
+60-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:5-78
+61            android:name="unity.launch-fullscreen"
+61-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:16-54
+62            android:value="True" />
+62-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:55-75
 63        <meta-data
-63-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:5-81
-64            android:name="notch.config"
-64-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:16-43
-65            android:value="portrait|landscape" />
-65-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:44-78
-66
-67        <receiver
-67-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:5-113
-68            android:name="com.unity.androidnotifications.UnityNotificationManager"
-68-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:15-85
-69            android:exported="false" />
-69-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:86-110
+63-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:5-84
+64            android:name="unity.allow-resizable-window"
+64-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:16-59
+65            android:value="False" />
+65-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:60-81
+66        <meta-data
+66-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:5-81
+67            android:name="notch.config"
+67-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:16-43
+68            android:value="portrait|landscape" />
+68-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:44-78
+69
 70        <receiver
-70-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:5-22:16
-71            android:name="com.unity.androidnotifications.UnityNotificationRestartOnBootReceiver"
-71-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:15-99
-72            android:enabled="false"
-72-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:100-123
-73            android:exported="false" >
-73-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:124-148
-74            <intent-filter>
-74-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:7-21:23
-75                <action android:name="android.intent.action.BOOT_COMPLETED" />
-75-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:9-71
-75-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:17-68
-76            </intent-filter>
-77        </receiver>
-78
-79        <meta-data
-79-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:5-99
-80            android:name="com.unity.androidnotifications.exact_scheduling"
-80-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:16-78
-81            android:value="0" />
-81-->/Users/sanketh/PacmanProject/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:79-96
-82    </application>
-83
-84</manifest>
+70-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:5-113
+71            android:name="com.unity.androidnotifications.UnityNotificationManager"
+71-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:15-85
+72            android:exported="false" />
+72-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:86-110
+73        <receiver
+73-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:5-22:16
+74            android:name="com.unity.androidnotifications.UnityNotificationRestartOnBootReceiver"
+74-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:15-99
+75            android:enabled="false"
+75-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:100-123
+76            android:exported="false" >
+76-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:124-148
+77            <intent-filter>
+77-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:7-21:23
+78                <action android:name="android.intent.action.BOOT_COMPLETED" />
+78-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:9-71
+78-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:17-68
+79            </intent-filter>
+80        </receiver>
+81
+82        <meta-data
+82-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:5-99
+83            android:name="com.unity.androidnotifications.exact_scheduling"
+83-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:16-78
+84            android:value="0" />
+84-->/Users/sanketh/Survivor/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:79-96
+85    </application>
+86
+87</manifest>
