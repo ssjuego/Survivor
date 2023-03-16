@@ -58,7 +58,7 @@ public class MovementInput : MonoBehaviour {
             verticalVel -= 1;
         }
         moveVector = new Vector3(0, verticalVel * .2f * Time.deltaTime, 0);
-        controller.Move(moveVector);
+        //controller.Move(moveVector);
 
 
     }
