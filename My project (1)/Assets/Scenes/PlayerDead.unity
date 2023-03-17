@@ -308,12 +308,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8385456095531990498, guid: 8c541f1ba2dfd4928bebc9eebab103a6,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8385456096176690762, guid: 8c541f1ba2dfd4928bebc9eebab103a6,
         type: 3}
       propertyPath: m_text
       value: 'Game Over!!!
 
         Player Died!!!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385456096328762068, guid: 8c541f1ba2dfd4928bebc9eebab103a6,
+        type: 3}
+      propertyPath: m_text
+      value: Do You Want to Exit Game?
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8c541f1ba2dfd4928bebc9eebab103a6, type: 3}
