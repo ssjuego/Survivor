@@ -11,6 +11,11 @@ public class MenuScript : MonoBehaviour
         
     }
 
+    public void BackToMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+
     public void Endgame()
     {
         Debug.Log("Exit");
