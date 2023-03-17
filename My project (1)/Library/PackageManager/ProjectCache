@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638145447130000000
-    m_Hash: 2189799225
+      ticks: 638146336380000000
+    m_Hash: 3514513732
   m_LockFileStatus:
     m_FilePath: /Users/sanketh/Survivor/My project (1)/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638145447730000000
-    m_Hash: 2904734828
+      ticks: 638146336380000000
+    m_Hash: 155049865
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,6 +22,132 @@ m_LocalPackages:
 m_ProjectPath: /Users/sanketh/Survivor/My project (1)/Packages
 m_EditorVersion: 2021.3.18f1 (3129e69bc0c7)
 m_ResolvedPackages:
+- packageId: com.unity.adaptiveperformance.samsung.android@4.0.2
+  testable: 0
+  isDirectDependency: 1
+  version: 4.0.2
+  source: 1
+  resolvedPath: /Users/sanketh/Survivor/My project (1)/Library/PackageCache/com.unity.adaptiveperformance.samsung.android@4.0.2
+  assetPath: Packages/com.unity.adaptiveperformance.samsung.android
+  name: com.unity.adaptiveperformance.samsung.android
+  displayName: Adaptive Performance Samsung Android
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: "The Adaptive Performance Samsung (Android) provider is a subsystem
+    for Adaptive Performance to extend Adaptive Performance to Samsung Android devices.
+    It transmits device-specific information to the Adaptive Performance system and
+    enables you to receive data about the thermal state of a Samsung Android device.
+    \n\nBy installing this package, you agree to the terms and conditions of the
+    Samsung GameSDK End User License Agreement found under \"View licenses\" above."
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.2.0-preview.1
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2-preview.1
+    - 1.1.0-preview.2
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2
+    - 1.1.3
+    - 1.1.4
+    - 1.1.6
+    - 1.1.9
+    - 1.1.10
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    - 2.0.0-preview.4
+    - 2.0.0-preview.7
+    - 2.0.0-preview.8
+    - 2.0.0-preview.9
+    - 2.0.0-preview.10
+    - 2.0.0-preview.11
+    - 2.0.0
+    - 2.0.1
+    - 2.0.2
+    - 2.1.0
+    - 2.1.1
+    - 2.2.1
+    - 2.2.2
+    - 2.2.4
+    - 2.2.5
+    - 3.0.0-pre.2
+    - 3.0.0
+    - 3.0.1
+    - 3.0.3
+    - 3.0.4
+    - 4.0.0-pre.1
+    - 4.0.0
+    - 4.0.1
+    - 4.0.2
+    - 5.0.0-pre.1
+    - 5.0.0-pre.2
+    compatible:
+    - 4.0.2
+    - 5.0.0-pre.1
+    - 5.0.0-pre.2
+    verified: 4.0.2
+  dependencies:
+  - name: com.unity.adaptiveperformance
+    version: 4.0.1
+  resolvedDependencies:
+  - name: com.unity.adaptiveperformance
+    version: 4.0.1
+  - name: com.unity.subsystemregistration
+    version: 1.1.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.profiling.core
+    version: 1.0.2
+  keywords:
+  - mobile
+  - adaptive
+  - performance
+  - utility
+  - utilities
+  - core
+  - samsung
+  - ap
+  - provider
+  - subsystem
+  - gamesdk
+  - VRR
+  - indexer
+  - scaler
+  - boost
+  - profiles
+  - cluster
+  - clusterinfo
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 638056149620000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.adaptiveperformance.samsung.android.git
+    revision: 7bbfbd0761a4523a6d571b29d2fe37d4d255c5db
+    path: 
+  unityLifecycle:
+    version: 4.0.2
+    nextVersion: 
 - packageId: com.unity.cinemachine@2.8.9
   testable: 0
   isDirectDependency: 1
